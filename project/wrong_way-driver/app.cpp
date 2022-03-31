@@ -37,10 +37,10 @@ bool CApplication::InternOnStartup() {
 
 bool CApplication::InternOnCreateTextures()
 {
-	CreateTexture("..\\..\\data\\car_red.png", &cubeTexture);
-	CreateTexture("..\\..\\data\\car_blue.png", &playerTexture);
-	CreateTexture("..\\..\\data\\background_trees.png", &blockTexture);
-	CreateTexture("..\\..\\data\\lives_3.png", &lifeIndicatorTexture);
+	CreateTexture("..\\..\\..\\data\\car_red.png", &cubeTexture);
+	CreateTexture("..\\..\\..\\data\\car_blue.png", &playerTexture);
+	CreateTexture("..\\..\\..\\data\\background_trees.png", &blockTexture);
+	CreateTexture("..\\..\\..\\data\\lives_3.png", &lifeIndicatorTexture);
 
 	return true;
 }
@@ -139,7 +139,7 @@ bool CApplication::InternOnUpdate()
     {
         ReleaseTexture(lifeIndicatorTexture);
         ReleaseMesh(this->lifeIndicatorMesh);
-        CreateTexture("C:\\Users\\Dariush\\Studium\\Studium_AI\\GDV1\\Projekt_Texturen\\lives_2.png", &lifeIndicatorTexture);
+        CreateTexture("..\\..\\..\\data\\lives_2.png", &lifeIndicatorTexture);
         this->lifeIndicatorMesh = CreateLifeIndicatorMesh(this->lifeIndicatorTexture);
         textureIsSetTo2 = true;
     }
@@ -147,7 +147,7 @@ bool CApplication::InternOnUpdate()
     {
         ReleaseTexture(lifeIndicatorTexture);
         ReleaseMesh(this->lifeIndicatorMesh);
-        CreateTexture("C:\\Users\\Dariush\\Studium\\Studium_AI\\GDV1\\Projekt_Texturen\\lives_1.png", &lifeIndicatorTexture);
+        CreateTexture("..\\..\\..\\data\\lives_1.png", &lifeIndicatorTexture);
         this->lifeIndicatorMesh = CreateLifeIndicatorMesh(this->lifeIndicatorTexture);
         textureIsSetTo1 = true;
     }

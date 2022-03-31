@@ -20,6 +20,6 @@ void main() {
     if (select == 's')
     {
         CApplication app;
-        gfx::RunApplication(800, 600, "GDV-Test", &app);
+        gfx::RunApplication(800, 600, "Wrong-Way Driver", &app);
     }
 }
