@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: Das Zwischenverzeichnis (Debug\) enthält freigegebene Dateien aus einem anderen Projekt (TestGDV.vcxproj). Dies kann zu einem falschen Bereinigungs- und Neuerstellungsverhalten führen.
+  app.cpp
+C:\Users\Dariush\Desktop\yoshix_vs_2019\project\TestGDV\app.cpp(122,11): warning C4101: "WorldMatrix": Unreferenzierte lokale Variable
+  game.cpp
+  Code wird generiert...
+  TestGDV.vcxproj -> C:\Users\Dariush\Desktop\yoshix_vs_2019\project\Debug\Wrong-Way Driver.exe

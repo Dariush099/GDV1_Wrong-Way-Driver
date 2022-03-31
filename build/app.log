@@ -1,0 +1,4 @@
+﻿  triangle_simple.cpp
+yoshix_fix_function_debug.lib(yoshix_main.obj) : warning LNK4099: PDB "yoshix_fix_function.pdb" wurde nicht mit "yoshix_fix_function_debug.lib(yoshix_main.obj)" oder an "C:\Users\Dariush\Desktop\yoshix_vs_2019\bin\yoshix_fix_function.pdb" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+yoshix_fix_function_debug.lib(yoshix_math.obj) : warning LNK4099: PDB "yoshix_fix_function.pdb" wurde nicht mit "yoshix_fix_function_debug.lib(yoshix_math.obj)" oder an "C:\Users\Dariush\Desktop\yoshix_vs_2019\bin\yoshix_fix_function.pdb" gefunden; Objekt wird verknüpft, als ob keine Debuginformationen vorhanden wären.
+  app.vcxproj -> C:\Users\Dariush\Desktop\yoshix_vs_2019\bin\appd.exe
